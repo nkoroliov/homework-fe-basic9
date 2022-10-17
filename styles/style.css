@@ -1,0 +1,369 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header-container{
+    display: flex;
+    height: 665px;
+    width: 100%;
+    background-color: #F4F6F9;
+    padding-left: 10%;
+    overflow: hidden;
+}
+
+
+
+.logo-container{
+    margin-top: 63px;
+    margin-bottom: 133px;
+}
+
+.header-info{
+    margin-bottom: 50px;
+}
+
+.header-heading{
+    font-family: 'Lato';
+    font-weight: 700;
+    width: 100%;
+    font-size: 36px;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.header-text{
+    font-weight: 400;
+    width: 80%;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+.app-store{
+    text-decoration: none;
+}
+
+.app-store-logo{
+    margin-right: 2.25rem;
+}
+
+.play-market{
+    text-decoration: none;
+}
+
+
+/* Header right section */
+
+
+.phone{
+    position: relative;
+    width: 100%;
+}
+
+.phone-img{
+    position: absolute;
+    min-width: 100%;
+}
+
+/* ==================Second section========================= */
+
+/* Left section */
+
+.match-section{
+    display: flex;
+    height: 592px;
+    width: 100%;
+   
+}
+
+.match-section-promo{
+    width: 54%;
+    position: relative;
+    background-image: linear-gradient(to left, #FFFFFF 2%, transparent 80%), url(../image/SAMPLE04.png);
+    background-repeat: no-repeat;
+}
+
+.match-promo{
+    position: relative;
+    width: 459px;
+    height: 317px;
+    margin: 10% 0 0 20%;
+    z-index: 1;
+}
+
+.promo-video{
+    position: absolute;
+    width: 360px;
+    height: 218.06px;
+    top: 290px;
+    left: 265px;
+}
+
+/* Right section */
+
+.match-section-info{
+    width: 46%;
+    padding-top: 133px;
+    background-color: #FFFFFF;
+}
+
+.info-explanation{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    margin-bottom: 27px;
+
+}
+
+.info-heading{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 27px;
+    
+}
+
+.info-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
+
+.match-section-text{
+    width: 58%;
+    margin-bottom: 22px;
+}
+
+.info-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    text-decoration: none;
+    
+}
+
+/* =======================Third section=============================== */
+
+.get-started-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 716px;
+    background-image: url(../image/phone/SAMPLE05.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+/* Left section */
+
+.get-started-info{
+    width: 50%;
+    margin-top: 217px;
+    margin-left: 162px;
+}
+
+.get-started-text{
+    width: 63%;
+    margin-bottom: 54px;
+}
+/* Right section */
+
+.get-started-photo{
+    display: none;
+}
+
+/* ======================Fourth section============================= */
+
+.features-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 735px;
+    background-image: url(../image/Group\ 696.svg);
+   overflow-x: hidden;
+    padding-top: 74px;
+}
+
+.features-heading{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 58px;
+}
+
+.features-content{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: auto;
+    column-gap: 120px;
+    row-gap: 50px;
+}
+
+.content-image{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.content-image-mobile{
+    display: none;
+}
+
+.content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.download-buttons-mobile{
+    display: none;
+}
+
+/* ========================Fifth container===================================== */
+
+.feedbacks-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 62px;
+    height: 431px;
+    background-color: #FFFFFF;
+}
+
+.feedbacks-heading{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 63px;
+}
+
+.feedbacks-container{
+    width: auto;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 47px;
+}
+
+.feedbacks-arrows{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin: 50px 100px 0 100px;
+}
+
+.left-arrow{
+    width: 47px;
+    height: 47px;
+}
+
+.right-arrow{
+    width: 47px;
+    height: 47px;
+}
+
+/* =========================Sixth section========================== */
+
+.partners-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 278px;
+    padding-top: 57px;
+    background-color: #FAFAFA;;
+}
+
+.partners-heading{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 58px;
+}
+
+.partners-logo{
+    display: flex;
+    gap: 90px;
+}
+
+/* ======================Seventh section========================== */
+
+.footer-top{
+    display: flex;
+}
+
+.footer-top-info{
+    margin-left: 77px;
+    margin-top: 105px;
+}
+
+.footer-top-text{
+    width: 68%;
+    margin-bottom: 45px;
+}
+
+/* Eighth section */
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 127px;
+    background-color: #00ADEE;
+}
+
+.social-networks-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.social-networks{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.social-networks a{
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;  
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: -35%;
+
+}
+
+.navigation-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 35px;
+}
+
+.navigation-item{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
